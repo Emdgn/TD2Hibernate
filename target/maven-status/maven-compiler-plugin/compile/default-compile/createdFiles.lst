@@ -1,0 +1,14 @@
+com\servlet\PaiementServlet.class
+com\servlet\CreerCompteServlet.class
+com\Hibernate\model\Paiement.class
+com\Hibernate\Util\HibernateUtil.class
+com\servlet\SupprimerUtilisateurServlet.class
+com\Hibernate\model\UtilisateurDetails.class
+com\Hibernate\model\Role.class
+com\Hibernate\Util\TraitementBDD.class
+com\servlet\AfficherUtilisateurServlet.class
+com\servlet\ModifierUtilisateurServlet.class
+com\Hibernate\model\Paypal.class
+com\Hibernate\model\Commande.class
+com\Hibernate\model\CB.class
+com\Hibernate\model\Utilisateur.class

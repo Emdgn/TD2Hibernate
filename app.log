@@ -1,0 +1,14 @@
+2023-juin-09 11:46:07 AM [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2023-juin-09 11:46:10 AM [main] DEBUG org.hibernate.SQL - create table Utilisateur (idUtilisateur integer not null auto_increment, login varchar(255), mdp varchar(255), idUtilD integer, primary key (idUtilisateur)) engine=MyISAM
+2023-juin-09 11:46:10 AM [main] DEBUG org.hibernate.SQL - create table UtilisateurDetails (id integer not null auto_increment, adresse varchar(255), cp integer not null, email varchar(255), tel bigint not null, ville varchar(255), primary key (id)) engine=MyISAM
+2023-juin-09 11:46:10 AM [main] DEBUG org.hibernate.SQL - alter table Utilisateur add constraint FK3pibga72vk7cw721y91to9flm foreign key (idUtilD) references UtilisateurDetails (id)
+2023-juin-09 11:46:10 AM [main] DEBUG org.hibernate.SQL - insert into Utilisateur (login, mdp, idUtilD) values (?, ?, ?)
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [login_123]
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [VARCHAR] - [mdp123]
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [INTEGER] - [null]
+2023-juin-09 11:46:10 AM [main] DEBUG org.hibernate.SQL - insert into UtilisateurDetails (adresse, cp, email, tel, ville) values (?, ?, ?, ?, ?)
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [1] as [VARCHAR] - [1 rue des blés]
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [2] as [INTEGER] - [68350]
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [3] as [VARCHAR] - [tes@tes.fr]
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [4] as [BIGINT] - [107853531]
+2023-juin-09 11:46:10 AM [main] TRACE org.hibernate.type.descriptor.sql.BasicBinder - binding parameter [5] as [VARCHAR] - [Brunstatt]

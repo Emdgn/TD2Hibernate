@@ -6,6 +6,11 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
+/**
+ * Classe pour le paiement en CB
+ * @author ME
+ *
+ */
 
 @Entity
 //@DiscriminatorValue("2")

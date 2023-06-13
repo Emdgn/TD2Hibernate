@@ -37,7 +37,7 @@ public class CreerCompteServlet extends HttpServlet {
     
     public CreerCompteServlet() {
         super();
-        // TODO Auto-generated constructor stub
+        
     }
 
 	/**
